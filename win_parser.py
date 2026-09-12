@@ -29,3 +29,5 @@ print(f"Total Failed Logins: {failed_count}")
 
 if failed_count > 5:
     print("[ ALERT ] High volume of failed logons! Check for active brute-force threat.")
+elif failed_count > 0:
+    print("[ LOW WARNING] Minor login failure detected. Normal user typo.")
