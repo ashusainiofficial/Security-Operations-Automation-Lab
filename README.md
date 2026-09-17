@@ -24,6 +24,10 @@ This repository contains custom security automation tools, enterprise data engin
 - **Purpose:** Taps directly into the local physical network interface card to intercept traffic passing through the network adapter in real-time.
 - **Key Feature:** Executes low-level socket interception using the Scapy library under Administrator privileges, filtering transport layer components dynamically to isolate unencrypted HTTP web portal interactions (Port 80).
 
+### 6. Automated Firewall Enforcement Engine (`auto_blocker.py`)
+- **Purpose:** Bridges log analysis with active infrastructure defense to neutralize attacks automatically in real-time.
+- **Key Feature:** Scans incoming system authentication log streams, isolates malicious high-velocity brute-force IP addresses, and dynamically constructs and executes native Windows shell command sequences (`netsh advfirewall`) using Python's `os.system` hook to permanently drop all incoming attacker data packets.
+
 ---
 
 ## Operational Command Structure
