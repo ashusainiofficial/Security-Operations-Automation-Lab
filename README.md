@@ -1,20 +1,39 @@
 # Security Operations & Threat Intelligence Lab
 
-This repository contains custom Python automation tools engineered to ingest system logs, parse complex text strings, and correlate them against open-source intelligence feeds.
+This repository contains custom security automation tools, enterprise data engineering frameworks, and threat hunting blueprints designed to ingest system logs, parse complex text strings, and correlate traffic metrics against live cyber threat vectors.
 
-## Projects Included
+## Technical Projects Portfolio
 
-### 1. Windows Endpoint Auditor (win_parser.py)
-- **Purpose:** Automatically scans raw system metrics exported from the Windows Event Viewer.
-- **Key Feature:** Implements a two-tier automated threat alert engine to catch failed logon attempts and reduce alert fatigue.
+### 1. Windows Endpoint Security Auditor (`win_parser.py`, `win_log.txt`)
+- **Purpose:** Automatically scans and parses raw system metrics exported from the Windows Event Viewer.
+- **Key Feature:** Implements a two-tier automated threat alert engine (`if/elif` conditional loops) to filter log data and reduce analyst alert fatigue by instantly distinguishing routine user typographical errors from high-velocity active brute-force threat vectors.
 
-### 2. Live Dynamic SIEM Engine (live_siem.py)
-- **Purpose:** Connects to the internet via HTTP streams to download live threat databases.
-- **Key Feature:** Uses header spoofing to ingest active hacker IP addresses from TweetFeed Live safely.
+### 2. Live Dynamic Intelligence Ingestion Feed (`intel_parser.py`, `intel_file_parser.py`, `live_siem.py`)
+- **Purpose:** Connects dynamically to open-source intelligence (OSINT) threat databases over the internet via encrypted HTTP streams.
+- **Key Feature:** Progressed from basic local list membership lookups to an automated web-streaming engine utilizing custom header spoofing (User-Agent browser string replication) to safely download hundreds of active hacker IP indicators without triggering edge firewall drops.
 
-## How to Run the Tools
+### 3. Advanced Multi-Variable Incident Triage Application (`siem.py`, `advanced_siem.py`, `auth_log.txt`, `threat_report.csv`)
+- **Purpose:** Processes complex security correlations by merging local system authentication logs with live web APIs and geographic directories.
+- **Key Feature:** Integrates string stripping loops (`.strip()`) to eliminate log data whitespace formatting anomalies, executes live HTTP queries against the `ip-api.com` directory to extract geographic origin metrics, and automatically compiles structural spreadsheets (`threat_report.csv`) for incident response teams.
 
-To execute the live SIEM engine on your local machine, open your terminal and run:
+### 4. Enterprise Splunk Cloud Threat Hunting & Behavioral Analytics
+- **Purpose:** Indexes large-scale corporate data environments (`tutorialdata.zip`) to track complex security anomalies and build visual operations rooms.
+- **Key Feature:** Authored complex Search Processing Language (SPL) queries and Regular Expression (`rex`) digital extraction scalpels (`\S+`, `\d+`) to isolate variables out of raw text paragraphs. Successfully uncovered a high-velocity, automated cron-job botnet attack wave executing daily at 10:00 PM.
+
+### 5. Live Local Network Packet Sniffer (`sniffer.py`)
+- **Purpose:** Taps directly into the local physical network interface card to intercept traffic passing through the network adapter in real-time.
+- **Key Feature:** Executes low-level socket interception using the Scapy library under Administrator privileges, filtering transport layer components dynamically to isolate unencrypted HTTP web portal interactions (Port 80).
+
+---
+
+## Operational Command Structure
+
+To execute the data engines or the local packet sniffer within this sandbox laboratory toolkit, open your Git Bash terminal and run:
+
 ```bash
-python live_siem.py
+# To run the advanced threat triage application:
+python advanced_siem.py
+
+# To run the live packet sniffer (Requires Admin rights):
+python sniffer.py
 ```
