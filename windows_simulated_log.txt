@@ -1,0 +1,6 @@
+Time:2026-09-18_17:01 - EventID:4624 - User:admin - Status:SUCCESS
+Time:2026-09-18_17:02 - EventID:4625 - User:root - Status:FAILED
+Time:2026-09-18_17:03 - EventID:4625 - User:root - Status:FAILED
+Time:2026-09-18_17:05 - EventID:4625 - User:guest - Status:FAILED
+Time:2026-09-18_17:06 - EventID:4624 - User:sales - Status:SUCCESS
+Time:2026-09-18_17:10 - EventID:4625 - User:administrator - Status:FAILED
