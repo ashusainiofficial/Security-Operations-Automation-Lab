@@ -28,6 +28,10 @@ This repository contains custom security automation tools, enterprise data engin
 - **Purpose:** Bridges log analysis with active infrastructure defense to neutralize attacks automatically in real-time.
 - **Key Feature:** Scans incoming system authentication log streams, isolates malicious high-velocity brute-force IP addresses, and dynamically constructs and executes native Windows shell command sequences (`netsh advfirewall`) using Python's `os.system` hook to permanently drop all incoming attacker data packets.
 
+### 7. Native Windows Event Log Forensic Tracker (`windows_powershell_cheatsheet.md`, `windows_simulated_log.txt`)
+- **Purpose:** Leverages native Windows shell environments to parse structural authentication datasets and isolate system access failures.
+- **Key Feature:** Formulates highly efficient, easily memorizable PowerShell pipelines using streaming utilities (`Get-Content`) and conditional text evaluation filters (`Select-String`) to isolate **Windows Event ID 4625 (Failed Authentication Footprints)**. This provides high-speed local endpoint triage capabilities without incurring the system resource overhead of a full graphical SIEM deployment.
+
 ---
 
 ## Operational Command Structure
