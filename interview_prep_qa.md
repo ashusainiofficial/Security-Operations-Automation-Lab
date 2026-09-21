@@ -72,3 +72,16 @@ When speaking about these projects in an interview, do not memorize scripts. Foc
 - **The Tool Used:** `| timechart span=1h count by username` (Hourly grouping metrics).
 - **The Discovery:** "Absolute chronological alignment" (Massive spike at exactly 10:00 PM daily).
 - **The Conclusion:** "Automated botnet script / Cron-job persistence" (Not humanly possible).
+
+### 🦈 3. Network Forensics Framework (Wireshark)
+- **The Filter Metric:** `tcp.port == 21 || http.request.method == "POST"` (Isolates plain-text protocol traffic vectors).
+- **The Extraction Method:** `Follow TCP Stream` (Reassembles packet payloads cleanly).
+- **The Exposure Profile:** "Clear text credentials" (Lack of TLS cryptographic validation).
+
+---
+
+## 🪟 4. Advanced Windows Sysmon Forensic Engineering
+Core Sysmon Event IDs utilized to hunt sophisticated threat actor footprints inside enterprise networks:
+- **Sysmon Event ID 1 (Process Creation):** Records the exact command-line execution string of running applications to flag malicious script spawns.
+- **Sysmon Event ID 3 (Network Connection):** Logs background local processes initiating outbound connections over the internet (The footprint of an active Reverse Shell connection).
+- **Sysmon Event ID 11 (File Creation):** Tracks file dropping states inside critical directory sectors (Detects dropped malware vectors).
