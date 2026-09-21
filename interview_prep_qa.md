@@ -57,3 +57,18 @@ This document catalogs high-yield technical interview questions, structural logi
 > "To close the underlying vulnerability, I execute direct host hardening by modifying the master remote entry control file located at `/etc/ssh/sshd_config`. 
 >
 > First, I toggle `PermitRootLogin no` to completely drop our highest-exposure administrative default attack surface, defeating the botnet's initial credential assumptions. Second, I implement `PasswordAuthentication no` to enforce multi-bit cryptographic key-based verification handshakes (`.pub`/`.pem` tokens). This entirely removes the text password prompt from the network interface, rendering automated dictionary scripts completely useless."
+
+---
+
+## 🗜️ Core Keyword Cheat Codes (No-Memorization Reference)
+When speaking about these projects in an interview, do not memorize scripts. Focus on landing these precise technical terms naturally within your own everyday phrasing:
+
+### 🛡️ 1. The Firewall Blocker Project (`auto_blocker.py`)
+- **The Threat:** "High-velocity brute force" (Automated hits).
+- **The Pitfall:** "Redundant duplicate rules" (Causes kernel CPU spikes/resource exhaustion).
+- **The Mechanism:** "In-memory tracking set" (Filters threat vectors at the application layer).
+
+### 📊 2. The Splunk Analytics Project (`| timechart`)
+- **The Tool Used:** `| timechart span=1h count by username` (Hourly grouping metrics).
+- **The Discovery:** "Absolute chronological alignment" (Massive spike at exactly 10:00 PM daily).
+- **The Conclusion:** "Automated botnet script / Cron-job persistence" (Not humanly possible).
