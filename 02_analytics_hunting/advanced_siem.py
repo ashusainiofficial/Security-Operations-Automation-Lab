@@ -4,7 +4,7 @@ import csv
 
 # 1. External Data Sources
 THREAT_URL = "https://api.tweetfeed.live/v1/blocklist/ips.txt"
-GEO_API = "http://ip-api.com"
+GEO_API = "http://ip-api.com/"
 
 print(" [STARTING] Ingesting live global threat database...")
 
