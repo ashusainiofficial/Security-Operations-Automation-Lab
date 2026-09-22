@@ -40,6 +40,10 @@ This repository contains custom security automation tools, enterprise data engin
 - **Purpose:** Automates system-wide endpoint forensic scans to uncover hidden reverse-shell malware timers [2026-09-18].
 - **Key Feature:** Loops through internal system ledgers (`/etc/passwd`), aggregates scheduled profiles while automatically filtering logging noise, and prints clean visual target arrays of active Cron anomalies instantly [2026-09-18].
 ---
+### 10. Enterprise Incident Response Playbook (`sop_bruteforce_playbook.md`)
+- **Purpose:** Establishes formal corporate Standard Operating Procedures (SOPs) for Tier-1/Tier-2 SOC environments to handle authentication system breaches.
+- **Key Feature:** Details the complete end-to-end incident lifecycle workflow, mapping out advanced Splunk search optimization practices, regular expression data extraction rules, automated firewall containment, and root-cause Linux host hardening configurations.
+
 
 ## Operational Command Structure
 
