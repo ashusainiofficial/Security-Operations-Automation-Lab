@@ -32,7 +32,18 @@ This repository contains custom security automation tools, enterprise data engin
 - **Purpose:** Leverages native Windows shell environments to parse structural authentication datasets and isolate system access failures.
 - **Key Feature:** Formulates highly efficient, easily memorizable PowerShell pipelines using streaming utilities (`Get-Content`) and conditional text evaluation filters (`Select-String`) to isolate **Windows Event ID 4625 (Failed Authentication Footprints)**. This provides high-speed local endpoint triage capabilities without incurring the system resource overhead of a full graphical SIEM deployment.
 
+### 8. Splunk Analytical Shortcut Engine (`| macro`)
+- **Purpose:** Optimizes operational search performance by abstracting complex formatting metrics.
+- **Key Feature:** Defeats manual triage errors by saving long, nested conditional regular expressions behind a single keyword (`extract_hacker_user`), allowing analysts to query big data sets instantly during crisis windows [2026-09-16].
+
+### 9. Linux Automation Scheduler Inspector (`cron_auditor.sh`)
+- **Purpose:** Automates system-wide endpoint forensic scans to uncover hidden reverse-shell malware timers [2026-09-18].
+- **Key Feature:** Loops through internal system ledgers (`/etc/passwd`), aggregates scheduled profiles while automatically filtering logging noise, and prints clean visual target arrays of active Cron anomalies instantly [2026-09-18].
 ---
+### 10. Enterprise Incident Response Playbook (`sop_bruteforce_playbook.md`)
+- **Purpose:** Establishes formal corporate Standard Operating Procedures (SOPs) for Tier-1/Tier-2 SOC environments to handle authentication system breaches.
+- **Key Feature:** Details the complete end-to-end incident lifecycle workflow, mapping out advanced Splunk search optimization practices, regular expression data extraction rules, automated firewall containment, and root-cause Linux host hardening configurations.
+
 
 ## Operational Command Structure
 
