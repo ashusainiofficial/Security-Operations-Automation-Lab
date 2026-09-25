@@ -85,3 +85,14 @@ Core Sysmon Event IDs utilized to hunt sophisticated threat actor footprints ins
 - **Sysmon Event ID 1 (Process Creation):** Records the exact command-line execution string of running applications to flag malicious script spawns.
 - **Sysmon Event ID 3 (Network Connection):** Logs background local processes initiating outbound connections over the internet (The footprint of an active Reverse Shell connection).
 - **Sysmon Event ID 11 (File Creation):** Tracks file dropping states inside critical directory sectors (Detects dropped malware vectors).
+
+---
+
+## 🚀 5. Security Orchestration, Automation, and Response (SOAR)
+**Interviewer Question:** 
+*"What is the operational difference between a SIEM and a SOAR platform, and how do they work together to optimize a Security Operations Center?"*
+
+**Operational Response:**
+> "A SIEM platform acts as the analytical eyes of the SOC, aggregating massive data pools to detect threat signatures and trigger alerts. A SOAR platform functions as the automated muscle, utilizing API integrations and pre-scripted Playbooks to orchestrate defensive tools in real-time. 
+>
+> During an incident, the SIEM hands off a high-velocity threat alert payload to the SOAR engine. The SOAR platform instantly queries OSINT reputation databases via API, validates the indicator, and executes containment playbooks—such as pushing a dynamic firewall block or generating an executive incident escalation report—in under a second, drastically reducing Mean Time to Remediate (MTTR) while mitigating analyst alert fatigue."
