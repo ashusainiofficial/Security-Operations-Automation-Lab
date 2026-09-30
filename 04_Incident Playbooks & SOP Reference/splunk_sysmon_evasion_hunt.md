@@ -65,11 +65,11 @@ To guarantee these complex forensic indicators are never lost in basic terminal 
 * **Panel Configuration:** Custom-extracted text rows mapped neatly to an interactive **Statistics Table** displaying a live, chronological stream of active system command overrides for security remediation teams.
 
 ## 🖼️ Verified Lab Deployment View
-![Incident Monitoring Dashboard](assets/dashboard.png)
+![Incident Monitoring Dashboard](assets/Dashborad.png)
 
-![Incident Monitoring Dashboard](assets/dashbord1.png)
+![Incident Monitoring Dashboard](assets/Dashborad1.png)
 
-![Incident Monitoring Dashboard](assets/dashbord2.png)
+![Incident Monitoring Dashboard](assets/Main_Dashbord.png)
 
 
 ### 📊 3. Enterprise Splunk Cloud Threat Hunting & Behavioral Analytics Engine
