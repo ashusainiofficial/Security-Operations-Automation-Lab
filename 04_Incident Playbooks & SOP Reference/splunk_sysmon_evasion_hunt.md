@@ -65,7 +65,7 @@ To guarantee these complex forensic indicators are never lost in basic terminal 
 * **Panel Configuration:** Custom-extracted text rows mapped neatly to an interactive **Statistics Table** displaying a live, chronological stream of active system command overrides for security remediation teams.
 
 ## 🖼️ Verified Lab Deployment View
-![Incident Monitoring Dashboard](assets/powershell.png)
+![Incident Monitoring Dashboard](assets/powershell.PNG)
 
 ![Incident Monitoring Dashboard](assets/Dashborad.png)
 
