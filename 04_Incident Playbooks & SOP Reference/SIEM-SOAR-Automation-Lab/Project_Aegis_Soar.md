@@ -39,7 +39,7 @@ A background Python daemon acts as both the sensor and the executor on the Windo
 * **Test Mode Overrides:** If a local logon failure is detected (127.0.0.1), the script safely remaps it to a simulated remote attacker IP (176.113.115.105) for pipeline testing[cite: 12].
 * **Idempotent Containment:** When the containment instruction is received from Slack, the script injects a firewall rule and confirms success; if triggered a second time, the PowerShell logic (`$null -eq $rule`) detects the existing rule and skips duplicate creation[cite: 12].
 
-![Python Listener Terminal](assets/soar_python_listener_2.png)[cite: 12]
+![Python Listener Terminal](assets/soar_python_listener.png)[cite: 12]
 
 ---
 
